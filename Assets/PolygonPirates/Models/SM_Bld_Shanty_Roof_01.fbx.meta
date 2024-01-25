@@ -1,0 +1,13 @@
+structure that represents the bounding rectangle for this <see cref="T:System.Drawing.TextureBrush" /> object.</param>
+      <param name="imageAttr">An <see cref="T:System.Drawing.Imaging.ImageAttributes" /> object that contains additional information about the image used by this <see cref="T:System.Drawing.TextureBrush" /> object.</param>
+    </member>
+    <member name="M:System.Drawing.TextureBrush.Clone">
+      <summary>Creates an exact copy of this <see cref="T:System.Drawing.TextureBrush" /> object.</summary>
+      <returns>The <see cref="T:System.Drawing.TextureBrush" /> object this method creates, cast as an <see cref="T:System.Object" /> object.</returns>
+    </member>
+    <member name="M:System.Drawing.TextureBrush.MultiplyTransform(System.Drawing.Drawing2D.Matrix)">
+      <summary>Multiplies the <see cref="T:System.Drawing.Drawing2D.Matrix" /> object that represents the local geometric transformation of this <see cref="T:System.Drawing.TextureBrush" /> object by the specified <see cref="T:System.Drawing.Drawing2D.Matrix" /> object by prepending the specified <see cref="T:System.Drawing.Drawing2D.Matrix" /> object.</summary>
+      <param name="matrix">The <see cref="T:System.Drawing.Drawing2D.Matrix" /> object by which to multiply the geometric transformation.</param>
+    </member>
+    <member name="M:System.Drawing.TextureBrush.MultiplyTransform(System.Drawing.Drawing2D.Matrix,System.Drawing.Drawing2D.MatrixOrder)">
+      <summary>Multiplies the <see cref="T:System.Drawing.Drawing2D.Matrix" /> object that represents the local geometric transformation of this <see cref="T:System.Drawing.TextureBrush" /> object by the specified

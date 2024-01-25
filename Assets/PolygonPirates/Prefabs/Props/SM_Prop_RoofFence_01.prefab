@@ -1,0 +1,52 @@
+                   "Text_zh-CN" : "配件",
+                                       "Text_fr" : "ACCESSOIRES",
+                                       "Text_es" : "ACCESORIOS",
+                                       "Text_de" : "ZUBEHÖR",
+                                       "Text_it" : "ACCESSORI",
+                                       "Text_ru" : "АКСЕССУАРЫ",
+                                       "Text_pl" : "AKCESORIA",
+                                       "Text_ar" : "الملحقات",
+                                       "Text_pt-BR" : "ACESSÓRIOS",
+                                       "Text_es-MX" : "ACCESORIOS",
+                                       "TextStyle" : "inverted-h4",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Top",
+                                       "WrapAt" : 400,
+                                       "Margin" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "Text_tr" : "AKSESUARLAR",
+                                       "Text_zh-Hans" : "配件",
+                                       "Text_zh-Hant" : "附屬",
+                                       "Text_th" : "อุปกรณ์เสริม"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "HAlign" : "Fill",
+                                 "AutoSize" : false,
+                                 "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                                 "Height" : 1,
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 30,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 8
+                                 }
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Grid",
+                           "Includes" : [
+                              "assets/props"
+                           ],
+                           "Excludes" : [
+                              "Items"
+                           ],
+                   

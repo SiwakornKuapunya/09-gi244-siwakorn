@@ -1,0 +1,62 @@
+              {
+                     "Type" : "Button",
+                     "ButtonStyle" : "SidebarNavigation.Button",
+                     "MetaData" : "launcher-subtab: play",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "ContentPadding" : {
+                        "Left" : 26,
+                        "Top" : 15,
+                        "Right" : 0,
+                        "Bottom" : 15
+                     },
+                     "OnNavigateUrl" : "/ut/play",
+                     "ForegroundColor" : "#8b8b8b",
+                     "Child" : {
+                        "Type" : "Link",
+                        "Row" : 0,
+                        "ColumnSpans" : [
+                           {
+                              "LayoutSize" : 0,
+                              "Span" : 4
+                           }
+                        ],
+                        "HAlign" : "Left",
+                        "Text" : {
+                           "Text_translate" : "true",
+                           "Text" : "Play",
+                           "TextStyle" : "inverted-h6",
+                           "UseForegroundColor" : "true",
+                           "Margin" : {
+                              "Left" : 10,
+                              "Top" : 0,
+                              "Right" : 10,
+                              "Bottom" : 0
+                           },
+                           "Text_ko" : "플레이",
+                           "Text_ja" : "プレイ",
+                           "Text_zh-CN" : "运行",
+                           "Text_fr" : "Jouer",
+                           "Text_es" : "Jugar",
+                           "Text_de" : "Spielen",
+                           "Text_it" : "Gioca",
+                           "Text_ru" : "Играть",
+                           "Text_pl" : "Graj",
+                           "Text_ar" : "تشغيل",
+                           "Text_pt-BR" : "Jogar",
+                           "Text_es-MX" : "Jugar",
+                           "Text_tr" : "Oyna",
+                           "Text_zh-Hans" : "运行",
+                           "Text_zh-Hant" : "遊玩",
+                           "Text_th" : "เล่น"
+                        },
+                        "OnNavigateUrl" : "/ut/play"
+                     }
+                  },
+                  {
+                     "Type" : "NotificationBadge",
+                     "Visibility" : "SelfHitTestInvisible",

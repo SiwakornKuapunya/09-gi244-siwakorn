@@ -1,0 +1,44 @@
+File_IncompatibleLockFileVersion">
+            <summary>
+              Looks up a localized string similar to Version specified in the packages.lock.json file is incompatible. Current tooling supports version {0} and previous formats..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_MismatchedTargetFrameworks">
+            <summary>
+              Looks up a localized string similar to The project target frameworks are different than the lock file&apos;s target frameworks. Lock file target frameworks: {0}. Project target frameworks {1}..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_NewTargetFramework">
+            <summary>
+              Looks up a localized string similar to The project target framework {0} was not found in the lock file..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_PackageReferenceAdded">
+            <summary>
+              Looks up a localized string similar to A new package reference was found {0} for the project target framework {1}..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_PackageReferencesHaveChanged">
+            <summary>
+              Looks up a localized string similar to The package references have changed for {0}. Lock file&apos;s package references: {1}, project&apos;s package references: {2}..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_PackageReferenceVersionChanged">
+            <summary>
+              Looks up a localized string similar to The package reference {0} version has changed from {1} to {2}..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_ProjectReferenceAdded">
+            <summary>
+              Looks up a localized string similar to A new project reference to {0} was found for {1} target framework..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_ProjectReferenceDependenciesHasChanged">
+            <summary>
+              Looks up a localized string similar to The project references {0} whose dependencies has changed..
+            </summary>
+        </member>
+        <member name="P:NuGet.ProjectModel.Strings.PackagesLockFile_ProjectReferenceHasNoCompatibleTargetFramework">
+            <summary>
+              Looks up a localized string similar to The project {0} has no compatible target framework. .
+         

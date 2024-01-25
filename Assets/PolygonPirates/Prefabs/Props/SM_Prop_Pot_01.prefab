@@ -1,0 +1,44 @@
+  "Image" : "small_download_icon.png"
+                           },
+                           "HoverIcon" : {
+                              "Image" : "ExternalLink.png"
+                           },
+                           "Text" : {
+                              "Text_translate" : "true",
+                              "Text" : "Learn more about submitting content",
+                              "TextStyle" : "inverted-body",
+                              "Margin" : {
+                                 "Left" : 10,
+                                 "Top" : 0,
+                                 "Right" : 10,
+                                 "Bottom" : 0
+                              },
+                              "Text_ko" : "콘텐츠 제출에 대해 자세히 알아보세요.",
+                              "Text_ja" : "コンテンツの提出について",
+                              "Text_zh-CN" : "了解更多关于提交内容的信息",
+                              "Text_fr" : "Découvrez-en plus sur l'envoi de contenus.",
+                              "Text_es" : "Más información sobre el envío de contenido",
+                              "Text_de" : "Mehr über das Übermitteln eigener Inhalte erfahren",
+                              "Text_it" : "Più informazioni sull'invio di contenuti",
+                              "Text_ru" : "Узнайте больше о загрузке контента",
+                              "Text_pl" : "Dowiedz się więcej na temat przesyłania zawartości",
+                              "Text_ar" : "تعلم المزيد عن تقديم المحتوى",
+                              "Text_pt-BR" : "Aprenda mais sobre o envio de conteúdo",
+                              "Text_es-MX" : "Obtén más información sobre el envío de contenido",
+                              "Text_tr" : "İçerik gönderme hakkında daha fazla bilgi edin",
+                              "Text_zh-Hans" : "了解更多关于提交内容的信息",
+                              "Text_zh-Hant" : "學習更多有關投稿內容的事",
+                              "Text_th" : "เรียนรู้เพิ่มเติมเกี่ยวกับเนื้อหาที่ยอมรับ"
+                           },
+                           "OnNavigateUrl" : "http://epic.gm/utmarketplacefaq"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "HAlign" : "Center",
+               "MaxWidth" : 1430,
+ 

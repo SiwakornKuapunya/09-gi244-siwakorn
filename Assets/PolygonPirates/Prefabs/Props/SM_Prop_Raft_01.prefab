@@ -1,0 +1,62 @@
+               "Text_es" : "MAPAS",
+                                       "Text_de" : "KARTEN",
+                                       "Text_it" : "MAPPE",
+                                       "Text_ru" : "КАРТЫ",
+                                       "Text_pl" : "MAPY",
+                                       "Text_ar" : "الخرائط",
+                                       "Text_pt-BR" : "MAPAS",
+                                       "Text_es-MX" : "MAPAS",
+                                       "TextStyle" : "inverted-h4",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Top",
+                                       "WrapAt" : 400,
+                                       "Margin" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "Text_tr" : "HARİTALAR",
+                                       "Text_zh-Hans" : "地图",
+                                       "Text_zh-Hant" : "地圖",
+                                       "Text_th" : "แผนที่"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "HAlign" : "Fill",
+                                 "AutoSize" : false,
+                                 "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                                 "Height" : 1,
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 30,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 8
+                                 }
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Grid",
+                           "MetaData" : "ut-marketplaceSubtabMapsGrid",
+                           "Includes" : [
+                              "assets/environments"
+                           ],
+                           "Excludes" : [
+                              "Items"
+                           ],
+                           "SortBy" : "ViewableDate",
+                           "SortDirection" : "Descending",
+                           "ElementHeight" : 272,
+                           "ElementWidth" : 362,
+                           "ItemAlignment" : "LeftAligned",
+                           "Layout" : "ui_UTMarketplaceLevelsV3",
+                           "Padding" : {
+                              "Left" : 20,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 60
+          

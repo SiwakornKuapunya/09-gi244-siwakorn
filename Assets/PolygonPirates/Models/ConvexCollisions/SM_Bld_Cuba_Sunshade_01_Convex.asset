@@ -1,0 +1,34 @@
+                                   },
+                                             "LineHeightScalar" : 1.2,
+                                             "Text_fr" : "Le logiciel Twinmotion étant très intuitif, vous pourrez découvrir nombreuses de ses fonctionnalités simplement en l'utilisant. Si vous avez besoin d'assistance pour utiliser une fonctionnalité en particulier, consultez notre formation en ligne d'introduction à Twinmotion.",
+                                             "Text_es" : "Descubrirás que Twinmotion es tan intuitivo que aprenderás a hacer cosas simplemente explorando. Pero si necesitas ayuda con alguna función en particular, echa un vistazo a nuestro curso en línea completo de Introducción a Twinmotion.",
+                                             "Text_es-MX" : "Verás que Twinmotion es tan intuitivo que hay mucho que podrás aprender con solo probarlo. De todos modos, si necesitas ayuda con alguna funcionalidad en particular, echa un vistazo a nuestro curso completo en línea Introducción a Twinmotion.",
+                                             "Text_ko" : "트윈모션은 매우 직관적입니다. 단순히 둘러보는 것만으로도 많은 것을 습득할 수 있습니다. 특정 기능에 대한 도움이 필요하시다면 종합적인 '트윈모션 소개' 온라인 강좌를 수강해 보세요.",
+                                             "Text_ja" : "Twinmotionは非常に直感的で、いろいろ試すだけでたくさんのことを学べます。 ただし、特定の機能でわかならいことがある場合は、Twinmotion オンラインコースをご覧ください。",
+                                             "Text_zh-Hans" : "Twinmotion非常直观，你可以通过摸索了解大部分功能的用法。但如果你需要了解某些功能的用法，可以查看我们的在线课程《Twinmotion入门》。",
+                                             "Text_pt-BR" : "Você vai ver que a Twinmotion é uma ferramenta muito intuitiva - você entenderá bastante coisa ao explorá-la. Mas, se precisar de ajuda com alguma função específica, confira o nosso curso online completo de Introdução ao Twinmotion.",
+                                             "Text_de" : "Twinmotion ist so intuitiv, dass du vieles allein durch Ausprobieren herausfinden kannst. Solltest du aber zu einer bestimmten Funktion Hilfe benötigen, sieh dir einfach unseren umfassenden Online-Einführungskurs für Twinmotion an."
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "Type" : "Box",
+                                       "Orientation" : "Vertical",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Center",
+                                       "AutoSize" : "false",
+                                       "Children" : [
+                                          {
+                                             "Type" : "Overlay",
+                                             "Padding" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 0,
+                                                "Bottom" : 0
+                                             },
+                                             "Children" : [
+                                                {
+                                                   "Type" : "Panel",
+                                                   "BackgroundImage" : "#DD2367",
+                                                   "MinWidth" : 260,
+                                                   "MinHeight" : 60

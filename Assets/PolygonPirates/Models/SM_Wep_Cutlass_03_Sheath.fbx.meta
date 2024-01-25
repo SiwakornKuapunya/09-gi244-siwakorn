@@ -1,0 +1,45 @@
+nst DefUseManager&) = delete;
+  DefUseManager& operator=(DefUseManager&&) = delete;
+
+  // Analyzes the defs in the given |inst|.
+  void AnalyzeInstDef(Instruction* inst);
+
+  // Analyzes the uses in the given |inst|.
+  //
+  // All operands of |inst| must be analyzed as defs.
+  void AnalyzeInstUse(Instruction* inst);
+
+  // Analyzes the defs and uses in the given |inst|.
+  void AnalyzeInstDefUse(Instruction* inst);
+
+  // Returns the def instruction for the given |id|. If there is no instruction
+  // defining |id|, returns nullptr.
+  Instruction* GetDef(uint32_t id);
+  const Instruction* GetDef(uint32_t id) const;
+
+  // Runs the given function |f| on each unique user instruction of |def| (or
+  // |id|).
+  //
+  // If one instruction uses |def| in multiple operands, that instruction will
+  // only be visited once.
+  //
+  // |def| (or |id|) must be registered as a definition.
+  void ForEachUser(const Instruction* def,
+                   const std::function<void(Instruction*)>& f) const;
+  void ForEachUser(uint32_t id,
+                   const std::function<void(Instruction*)>& f) const;
+
+  // Runs the given function |f| on each unique user instruction of |def| (or
+  // |id|). If |f| returns false, iteration is terminated and this function
+  // returns false.
+  //
+  // If one instruction uses |def| in multiple operands, that instruction will
+  // be only be visited once.
+  //
+  // |def| (or |id|) must be registered as a definition.
+  bool WhileEachUser(const Instruction* def,
+                     const std::function<bool(Instruction*)>& f) const;
+  bool WhileEachUser(uint32_t id,
+                     const std::function<bool(Instruction*)>& f) const;
+
+  // R

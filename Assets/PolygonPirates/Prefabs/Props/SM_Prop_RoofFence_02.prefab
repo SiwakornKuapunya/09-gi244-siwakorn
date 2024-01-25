@@ -1,0 +1,45 @@
+        "Text_ko" : "개발 콘텐츠",
+                                       "Text_zh-CN" : "开发内容",
+                                       "Text_ja" : "デベロップメントコンテンツ",
+                                       "Text_fr" : "CONTENU DE DÉVELOPPEMENT",
+                                       "Text_es" : "CONTENIDO DE DESARROLLO",
+                                       "Text_de" : "ENTWICKLERINHALTE",
+                                       "Text_it" : "CONTENUTI DI SVILUPPO",
+                                       "Text_ru" : "КОНТЕНТ ДЛЯ РАЗРАБОТКИ",
+                                       "Text_pl" : "ZAWARTOŚĆ DLA DEWELOPERÓW",
+                                       "Text_ar" : "محتوى التطوير",
+                                       "Text_pt-BR" : "CONTEÚDO DE DESENVOLVIMENTO",
+                                       "Text_es-MX" : "CONTENIDO DE DESARROLLO",
+                                       "TextStyle" : "inverted-h4",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Top",
+                                       "WrapAt" : 400,
+                                       "Margin" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "Text_tr" : "GELİŞTİRME İÇERİĞİ",
+                                       "Text_zh-Hans" : "开发内容",
+                                       "Text_zh-Hant" : "開發內容",
+                                       "Text_th" : "เนื้อหาการพัฒนา"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "HAlign" : "Fill",
+                                 "AutoSize" : false,
+                                 "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                                 "Height" : 1,
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 30,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 8
+                                 }
+                              }
+                           ]
+                        },
